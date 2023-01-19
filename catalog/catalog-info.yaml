@@ -19,7 +19,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: denmark-team
-  system: demo
+  system: cncf
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
