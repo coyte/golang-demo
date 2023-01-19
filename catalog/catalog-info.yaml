@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: golang-demo
-  description: A golang web app
+  description: A golang web app demoing the secure supply chain
   tags:
     - golang
+    - web
   links:
     - url: https://golang-demo.default.tanzu.dk/
       title: App Link
