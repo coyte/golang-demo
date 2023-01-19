@@ -4,13 +4,13 @@ metadata:
   name: golang-demo
   description: A golang web app
   tags:
-  - golang
+    - golang
   links:
-  - url: https://go.dev
-    title: GoLang
-    icon: dashboard
+    - url: https://go.dev
+      title: GoLang
+      icon: dashboard
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=golang-accelerator
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=golang-demo
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
