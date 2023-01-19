@@ -1,0 +1,14 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: golang-accelerator
+  namespace: accelerator-system
+spec:
+  displayName: Golang-accelerator
+  description: Clean Golang enviroment ready to code.
+  git:
+    url: ssh://git@github.com:/TanzuDK/golang-accelerator.git
+    ref:
+      branch: main
+    secretRef:
+      name: ssh-credentials

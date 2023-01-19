@@ -1,0 +1,6 @@
+site_name: Golang Accelerator
+nav:
+- The Application: index.md
+- Links: links.md
+plugins:
+- techdocs-core
