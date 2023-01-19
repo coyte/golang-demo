@@ -20,3 +20,14 @@ spec:
   lifecycle: experimental
   owner: denmark-team
   system: demo
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cncf
+  description: CNCF Demo
+  annotations:
+    "backstage.io/techdocs-ref": dir:.
+spec:
+  owner: denmark-team
+  domain: tap-gui-domain
