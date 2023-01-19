@@ -1,0 +1,11 @@
+# project.toml
+[ build ]
+
+
+[[ build.env ]]
+name="BP_GO_TARGETS"
+value="./app"
+
+[[ build.env ]]
+name="BP_KEEP_FILES"
+value="html/*"

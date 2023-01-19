@@ -9,6 +9,9 @@ metadata:
   annotations:
     autoscaling.knative.dev/minScale: "1"
 spec:
+  params:
+  - name: dockerfile
+    value: ./Dockerfile
   source:
     git:
       url: https://github.com/TanzuDK/golang-demo.git
