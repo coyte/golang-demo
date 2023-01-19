@@ -1,2 +1,5 @@
-# golang-accelerator
-Clean Golang enviroment ready to code
+# golang-demo
+
+Golang Demo app.
+
+See documentation for more info
