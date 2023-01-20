@@ -1,4 +1,4 @@
-# Golang Demo
+# My new Golang Demo App
 
 Golang Demo App documentation
 
