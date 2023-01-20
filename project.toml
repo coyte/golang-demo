@@ -8,4 +8,4 @@ value="./app"
 
 [[ build.env ]]
 name="BP_KEEP_FILES"
-value="html/*"
+value="html/*:app/html/*"
