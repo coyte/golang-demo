@@ -8,8 +8,8 @@ import (
 
 func main() {
 
-	fileServer := http.FileServer(http.Dir("./html")) // New code
-	http.Handle("/", fileServer)                      // New code
+	fileServer := http.FileServer(http.Dir("/workspace/app/html")) // New code
+	http.Handle("/", fileServer)                                   // New code
 
 	fmt.Printf("Starting webserver at port 8080\n")
 	if err := http.ListenAndServe(":8080", nil); err != nil {
