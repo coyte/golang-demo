@@ -8,6 +8,7 @@ metadata:
     apps.tanzu.vmware.com/has-tests: "true"
   annotations:
     autoscaling.knative.dev/minScale: "1"
+    apps.tanzu.vmware.com/pipeline: test-angular
 spec:
   source:
     git:
