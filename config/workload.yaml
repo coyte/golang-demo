@@ -12,7 +12,7 @@ spec:
       value:
         autoscaling.knative.dev/minScale: "1"
     - name: clusterBuilder
-      value: full
+      value: default
     - name: testing_pipeline_matching_labels
       value:
         apps.tanzu.vmware.com/pipeline: test-angular
