@@ -15,7 +15,7 @@ spec:
       value: default
     - name: testing_pipeline_matching_labels
       value:
-        apps.tanzu.vmware.com/pipeline: test-angular
+        apps.tanzu.vmware.com/pipeline: test-golang
   source:
     git:
       url: https://github.com/TanzuDK/golang-demo.git
