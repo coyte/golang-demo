@@ -7,12 +7,21 @@ import (
 )
 
 func main() {
+	Webserver("/workspace/app/html")
 
-	fileServer := http.FileServer(http.Dir("/workspace/app/html")) // New code
-	http.Handle("/", fileServer)                                   // New code
+}
+
+func Webserver(path string) {
+	fileServer := http.FileServer(http.Dir(path)) // New code
+	http.Handle("/", fileServer)                  // New code
+	http.HandleFunc("/ping", ping)                // Test function
 
 	fmt.Printf("Starting webserver at port 8080\n")
 	if err := http.ListenAndServe(":8080", nil); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func ping(w http.ResponseWriter, req *http.Request) {
+	fmt.Fprintf(w, "pong\n")
 }

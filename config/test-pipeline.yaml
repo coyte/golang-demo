@@ -23,4 +23,5 @@ spec:
           - name: golang-test
             image: golang:1.19
             script: |-
-              echo "dummy test pipeline"
+              echo "Testing"
+              go test
