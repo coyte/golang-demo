@@ -24,4 +24,4 @@ spec:
             image: golang:1.19
             script: |-
               echo "Testing"
-              go test
+              go test ./app
