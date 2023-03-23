@@ -1,6 +1,6 @@
 # My new Golang Demo App
 
-Golang Demo App documentation for Demo
+Golang Demo App documentation for Public Sector Day
 
 This is the ddocumentation, for the Golang Demo App. A simple one page, webapp, showing the supply chain, of Tanzu Application Platform.
 
