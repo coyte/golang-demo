@@ -7,7 +7,7 @@ metadata:
     - golang
     - web
   links:
-    - url: https://golang-demo.default.vmlab.tanzu.dk/
+    - url: https://golang-demo.default.tap.viktoriouslab.nl/
       title: App Link
       icon: dashboard
     - url: https://go.dev
