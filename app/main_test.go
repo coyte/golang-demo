@@ -6,7 +6,7 @@ import (
 )
 
 func TestServer(t *testing.T) {
-	fileName := "/app/html/index.html"
+	fileName := "./app/html/index.html"
 
 	_, error := os.Stat(fileName)
 

@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	Webserver("/app/html")
+	Webserver("/workspace/app/html")
 
 }
 
