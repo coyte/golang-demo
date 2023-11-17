@@ -6,7 +6,7 @@ import (
 )
 
 func TestServer(t *testing.T) {
-	fileName := "/workspace/app/html"
+	fileName := "/app/html"
 
 	_, error := os.Stat(fileName)
 
